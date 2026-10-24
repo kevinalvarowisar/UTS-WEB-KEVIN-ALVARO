@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio personal Kevin Alvaro, mahasiswa Sistem Informasi yang tertarik pada teknologi, bisnis, dan fotografi.">
+  <meta name="author" content="Kevin Alvaro">
+  <title>Kevin Alvaro | Personal Portfolio</title>
+
+  <!-- Bootstrap 5 CSS Framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Ikon Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- CSS kustom -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark container py-3" aria-label="Navigasi utama">
+      <a class="navbar-brand fw-bold brand-mark" href="#home">KA<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Buka navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+          <li class="nav-item"><a class="nav-link" href="#calculator">Kalkulator</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+          <li class="nav-item">
+            <button class="btn btn-sm btn-outline-light theme-toggle" id="themeToggle" type="button" aria-pressed="false">
+              <i class="bi bi-sun-fill" id="themeIcon" aria-hidden="true"></i>
+              <span id="themeLabel">Mode terang</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero-section section-space" id="home">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <p class="eyebrow"><span class="status-dot"></span> MAHASISWA SISTEM INFORMASI</p>
+            <h1 class="display-title">Halo, saya <span class="text-accent">Kevin Alvaro.</span></h1>
+            <p class="hero-lead">Saya tertarik menghubungkan teknologi, bisnis, dan kreativitas untuk menciptakan solusi yang berguna.</p>
+            <p class="muted-copy">Saat ini saya belajar Sistem Informasi, mengembangkan pengalaman di dunia usaha, dan mengeksplorasi fotografi.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-accent btn-lg" href="#projects">Lihat proyek <i class="bi bi-arrow-up-right ms-1" aria-hidden="true"></i></a>
+              <a class="btn btn-outline-light btn-lg secondary-button" href="#contact">Hubungi saya</a>
+            </div>
+            <div class="hero-meta mt-5">
+              <div><strong>01</strong><span>Teknologi</span></div>
+              <div><strong>02</strong><span>Bisnis</span></div>
+              <div><strong>03</strong><span>Fotografi</span></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <aside class="profile-card" aria-label="Ringkasan profil">
+              <div class="profile-image-wrap">
+               
+                <img class="profile-image" src="img/kevin.JPG" alt="Placeholder foto profil Kevin" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+                <div class="profile-fallback" aria-hidden="true">KA</div>
+                <span class="image-label"><i class="bi bi-camera me-2" aria-hidden="true"></i>Personal portfolio</span>
+              </div>
+              <div class="profile-card-body">
+                <p class="eyebrow mb-2">PROFIL SINGKAT</p>
+                <h2 class="h3 mb-2">Kevin Alvaro</h2>
+                <p class="muted-copy mb-3">Mahasiswa Sistem Informasi · Kediri, Indonesia</p>
+                <div class="profile-detail"><span>NPM</span><strong>2513020087</strong></div>
+                <div class="profile-detail"><span>Fokus</span><strong>Business & Technology</strong></div>
+                <div class="profile-detail"><span>Minat kreatif</span><strong>Photography</strong></div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-border" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / TENTANG SAYA</p>
+          <h2 class="section-title">Menggabungkan <span class="text-accent">logika dan kreativitas.</span></h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <article class="content-panel h-100">
+              <h3 class="h4 mb-3">Perkenalan</h3>
+              <p class="muted-copy">Saya Kevin Alvaro, mahasiswa Sistem Informasi yang tertarik pada proses bisnis, pemanfaatan teknologi, dan pengembangan ide menjadi sesuatu yang bermanfaat.</p>
+              <p class="muted-copy mb-0">Di luar perkuliahan, saya juga mengenal operasional usaha kuliner keluarga dan belajar fotografi. Pengalaman tersebut membantu saya melihat masalah dari sisi pengguna, proses, dan komunikasi visual.</p>
+            </article>
+          </div>
+          <div class="col-lg-5">
+            <aside class="content-panel h-100">
+              <h3 class="h4 mb-3">Prinsip kerja</h3>
+              <ul class="principle-list">
+                <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span><strong>Terus belajar</strong><small>Meningkatkan kemampuan secara bertahap.</small></span></li>
+                <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span><strong>Berpikir terstruktur</strong><small>Memahami masalah sebelum memilih solusi.</small></span></li>
+                <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span><strong>Berorientasi pengguna</strong><small>Membuat solusi yang jelas dan mudah digunakan.</small></span></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-border" id="projects">
+      <div class="container">
+        <div class="section-heading d-flex flex-column flex-lg-row align-items-lg-end justify-content-between gap-3">
+          <div>
+            <p class="eyebrow">02 / PILIHAN PROYEK</p>
+            <h2 class="section-title">Hal yang sedang <span class="text-accent">saya kembangkan.</span></h2>
+          </div>
+          <p class="muted-copy heading-note mb-0">Contoh proyek dan pengalaman. Perbarui detail sesuai karya yang benar-benar sudah dikerjakan.</p>
+        </div>
+
+        <div class="project-toolbar">
+          <label class="visually-hidden" for="projectSearch">Cari proyek</label>
+          <div class="search-box"><i class="bi bi-search" aria-hidden="true"></i><input id="projectSearch" type="search" placeholder="Cari proyek..." autocomplete="off"></div>
+          <div class="filter-buttons" role="group" aria-label="Filter kategori proyek">
+            <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">Semua</button>
+            <button class="filter-btn" type="button" data-filter="technology" aria-pressed="false">Teknologi</button>
+            <button class="filter-btn" type="button" data-filter="business" aria-pressed="false">Bisnis</button>
+            <button class="filter-btn" type="button" data-filter="creative" aria-pressed="false">Kreatif</button>
+          </div>
+        </div>
+
+        <div class="row g-4" id="projectGrid">
+          <div class="col-md-6 col-xl-4 project-item" data-category="technology" data-search="portfolio website html css javascript bootstrap web">
+            <article class="project-card h-100">
+              <div class="project-visual visual-purple"><span>WEB / 01</span><i class="bi bi-window-stack" aria-hidden="true"></i></div>
+              <div class="project-card-body"><p class="project-category">TEKNOLOGI</p><h3 class="h4">Personal Portfolio</h3><p class="muted-copy">Website portofolio responsif dengan HTML semantik, Bootstrap, dan JavaScript DOM.</p><div class="tag-list"><span>HTML</span><span>Bootstrap</span><span>JavaScript</span></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item" data-category="business" data-search="sari foods kuliner umkm proses bisnis makanan">
+            <article class="project-card h-100">
+              <div class="project-visual visual-gold"><span>BUSINESS / 02</span><i class="bi bi-shop-window" aria-hidden="true"></i></div>
+              <div class="project-card-body"><p class="project-category">BISNIS</p><h3 class="h4">Sari Foods</h3><p class="muted-copy">Pengalaman mengenal usaha kuliner, produk makanan, pelayanan pelanggan, dan proses operasional UMKM.</p><div class="tag-list"><span>UMKM</span><span>Operasional</span><span>Marketing</span></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item" data-category="creative" data-search="fotografi portrait visual storytelling editing foto">
+            <article class="project-card h-100">
+              <div class="project-visual visual-blue"><span>CREATIVE / 03</span><i class="bi bi-camera" aria-hidden="true"></i></div>
+              <div class="project-card-body"><p class="project-category">KREATIF</p><h3 class="h4">Photography Practice</h3><p class="muted-copy">Latihan fotografi portrait dan visual storytelling dengan perhatian pada cahaya, komposisi, dan warna.</p><div class="tag-list"><span>Portrait</span><span>Lighting</span><span>Editing</span></div></div>
+            </article>
+          </div>
+        </div>
+        <p id="noProjects" class="empty-state d-none" role="status">Tidak ada proyek yang cocok dengan pencarian.</p>
+      </div>
+    </section>
+
+    <section class="section-space section-border" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / KEAHLIAN</p>
+          <h2 class="section-title">Skill yang <span class="text-accent">terus diasah.</span></h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="content-panel h-100">
+              <h3 class="h4 mb-4">Teknologi & analisis</h3>
+              <div class="skill-row"><div><span>HTML & struktur web</span><span>Dasar</span></div><div class="skill-track"><span style="width:65%"></span></div></div>
+              <div class="skill-row"><div><span>CSS & Bootstrap</span><span>Dasar</span></div><div class="skill-track"><span style="width:60%"></span></div></div>
+              <div class="skill-row"><div><span>JavaScript & DOM</span><span>Belajar</span></div><div class="skill-track"><span style="width:45%"></span></div></div>
+              <div class="skill-row mb-0"><div><span>Analisis proses bisnis</span><span>Pengembangan</span></div><div class="skill-track"><span style="width:55%"></span></div></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="content-panel h-100">
+              <h3 class="h4 mb-4">Bisnis & kreativitas</h3>
+              <div class="skill-row"><div><span>Fotografi</span><span>Praktik</span></div><div class="skill-track"><span style="width:65%"></span></div></div>
+              <div class="skill-row"><div><span>Editing foto</span><span>Praktik</span></div><div class="skill-track"><span style="width:60%"></span></div></div>
+              <div class="skill-row"><div><span>Operasional UMKM</span><span>Pengalaman</span></div><div class="skill-track"><span style="width:60%"></span></div></div>
+              <div class="skill-row mb-0"><div><span>Komunikasi & kolaborasi</span><span>Pengembangan</span></div><div class="skill-track"><span style="width:55%"></span></div></div>
+            </article>
+          </div>
+        </div>
+        <p class="small muted-copy mt-3">Catatan: indikator skill adalah gambaran awal, bukan sertifikasi atau penilaian resmi. Sesuaikan dengan kemampuan aktual.</p>
+      </div>
+    </section>
+
+    <section class="section-space section-border" id="calculator">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <p class="eyebrow">04 / FITUR JAVASCRIPT</p>
+            <h2 class="section-title">Kalkulator <span class="text-accent">estimasi proyek.</span></h2>
+            <p class="muted-copy">Masukkan jenis layanan dan jumlah unit untuk memperoleh estimasi biaya. Ini simulasi sederhana, bukan penawaran harga resmi.</p>
+            <div class="calculator-note"><i class="bi bi-info-circle me-2" aria-hidden="true"></i>Perhitungan dilakukan langsung di browser menggunakan fungsi JavaScript dan ditampilkan ke DOM.</div>
+          </div>
+          <div class="col-lg-7">
+            <article class="calculator-card">
+              <form id="calculatorForm" novalidate>
+                <div class="mb-4">
+                  <label class="form-label" for="serviceType">Jenis layanan</label>
+                  <select class="form-select custom-input" id="serviceType" required>
+                    <option value="150000">Landing page sederhana — Rp150.000/unit</option>
+                    <option value="250000">Desain konten — Rp250.000/unit</option>
+                    <option value="200000">Sesi fotografi — Rp200.000/unit</option>
+                  </select>
+                </div>
+                <div class="mb-4">
+                  <label class="form-label" for="quantity">Jumlah unit</label>
+                  <input class="form-control custom-input" id="quantity" type="number" min="1" max="100" value="1" required>
+                  <div class="form-text">Masukkan angka 1 sampai 100.</div>
+                </div>
+                <div class="mb-4">
+                  <label class="form-label" for="discount">Diskon simulasi</label>
+                  <select class="form-select custom-input" id="discount">
+                    <option value="0">Tanpa diskon</option>
+                    <option value="5">5%</option>
+                    <option value="10">10%</option>
+                    <option value="15">15%</option>
+                  </select>
+                </div>
+                <button class="btn btn-accent w-100" type="submit">Hitung estimasi <i class="bi bi-calculator ms-1" aria-hidden="true"></i></button>
+                <p class="form-feedback mt-3 mb-0" id="calculatorFeedback" role="status" aria-live="polite">Isi pilihan di atas lalu tekan tombol hitung.</p>
+                <div class="estimate-result mt-3" aria-live="polite">
+                  <span>Estimasi total</span>
+                  <output id="estimateOutput" for="serviceType quantity discount">Rp0</output>
+                  <small id="estimateBreakdown">Rincian perhitungan akan muncul di sini.</small>
+                </div>
+              </form>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-border" id="contact">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p class="eyebrow">05 / KONTAK</p>
+            <h2 class="section-title">Mari mulai <span class="text-accent">percakapan.</span></h2>
+            <p class="muted-copy">Punya ide, proyek, atau kesempatan kolaborasi? Isi formulir di samping untuk memeriksa data sebelum mengirim.</p>
+            <div class="contact-detail"><i class="bi bi-envelope" aria-hidden="true"></i><div><span>Email</span><strong>Tambahkan email aktif Anda</strong></div></div>
+            <div class="contact-detail"><i class="bi bi-geo-alt" aria-hidden="true"></i><div><span>Lokasi</span><strong>Kediri, Indonesia</strong></div></div>
+            <p class="small muted-copy mt-4">Formulir ini hanya melakukan validasi di browser; belum terhubung ke layanan pengiriman email.</p>
+          </div>
+          <div class="col-lg-7">
+            <article class="content-panel">
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label" for="contactName">Nama</label>
+                    <input class="form-control custom-input" id="contactName" name="name" type="text" minlength="2" required placeholder="Nama Anda">
+                    <div class="invalid-feedback">Masukkan nama minimal 2 karakter.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" for="contactEmail">Email</label>
+                    <input class="form-control custom-input" id="contactEmail" name="email" type="email" required placeholder="nama@email.com">
+                    <div class="invalid-feedback">Masukkan alamat email yang valid.</div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="contactSubject">Subjek</label>
+                    <input class="form-control custom-input" id="contactSubject" name="subject" type="text" minlength="3" required placeholder="Topik pesan">
+                    <div class="invalid-feedback">Subjek minimal 3 karakter.</div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="contactMessage">Pesan</label>
+                    <textarea class="form-control custom-input" id="contactMessage" name="message" rows="5" minlength="10" required placeholder="Ceritakan kebutuhan atau ide Anda..."></textarea>
+                    <div class="invalid-feedback">Pesan minimal 10 karakter.</div>
+                  </div>
+                  <div class="col-12"><button class="btn btn-accent" type="submit">Validasi pesan <i class="bi bi-send ms-1" aria-hidden="true"></i></button></div>
+                </div>
+                <p class="form-feedback mt-3 mb-0" id="contactFeedback" role="status" aria-live="polite">Semua kolom wajib diisi.</p>
+              </form>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2">
+      <p class="mb-0">© <span id="currentYear"></span> Kevin Alvaro. Dibuat untuk proyek UTS Pemrograman Web.</p>
+      <a href="#home" class="back-to-top">Kembali ke atas <i class="bi bi-arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript bundle untuk menu navigasi mobile -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JavaScript eksternal sesuai ketentuan UTS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
