@@ -20,8 +20,9 @@ Website portofolio untuk tugas UTS Pemrograman Web. Website ini berisi informasi
 
 ## Link Website
 
-- **GitHub Pages:** -
-- **Repository GitHub:** -
+- **GitHub Pages:** https://kevinalvarowisar.github.io/UTS-WEB-KEVIN-ALVARO/
+- **Repository GitHub:** https://github.com/kevinalvarowisar/UTS-WEB-KEVIN-ALVARO
+
 
 ## Catatan
 
